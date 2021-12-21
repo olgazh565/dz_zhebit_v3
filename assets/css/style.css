@@ -177,22 +177,25 @@ html{
     font-size: 18px;
     color: rgba(255, 255, 255, 0.4);
 }
-input.form__search{
+input.text__form-search{
     border: 0px; 
     background-color: #1F2143;;
     border-radius: 12px;
     padding-top: 21px;
     padding-bottom: 21px;
     padding-left: 30px;
-    padding-right: 250px;
+    padding-right: 70px;
     margin-top: 58px;
     margin-bottom: 51px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    width: 100%;
 }
 input::placeholder{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
 }
-.form__search-img{
+.text__form-search-img{
     position: absolute;
     right: 13px;
     bottom: 208px;
@@ -260,6 +263,10 @@ input::placeholder{
     color: rgba(255, 255, 255, 0.8);
     padding-bottom: 30px;
 }
+.title__line{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+}
 .card{
     display: flex;
     justify-content: space-between;
@@ -277,7 +284,6 @@ input::placeholder{
     max-width: 278px;
     max-height: 490px;
     position: relative;  
-    /* align-items: center;    */
 }
 .card__el{
     padding: 8px 20px;
@@ -355,6 +361,9 @@ input::placeholder{
 }
 button.card__button_none{
     display: none;
+}
+.card__item:hover .card__button{
+    display: block;
 }
 .footer{
     text-align: center;
